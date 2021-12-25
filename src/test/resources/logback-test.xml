@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml" />
+    <logger name="org.springframework" level="INFO"/>
+    <logger name="org.springframework.cache.ehcache" level="OFF"/>
+    <logger name="org.springframework.boot.test.context.SpringBootTestContextBootstrapper" level="ERROR"/>
+    <logger name="org.springframework.data.repository.config.RepositoryConfigurationDelegate" level="ERROR"/>
+    <logger name="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean" level="ERROR"/>
+    <logger name="org.springframework.test.context.support.AbstractContextLoader" level="ERROR"/>
+    <logger name="org.aspectj" level="OFF"/>
+    <logger name="org.hibernate" level="OFF"/>
+    <logger name="org.reflections" level="OFF"/>
+    <logger name="com.zaxxer" level="OFF"/>
+</configuration>
